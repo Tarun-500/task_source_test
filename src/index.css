@@ -8,7 +8,7 @@
 
 body {
   font-family: "Nunito" !important;
-  min-height: 100vh;
+  min-height: 110vh;
 }
 
 :root {
@@ -309,8 +309,7 @@ body {
 /* _____ popover slider ______ */
 .popover-tabs {
   display: flex;
-  justify-content: space-around;
-  border-bottom: 1px solid #ccc;
+  justify-content: space-around; 
 }
 
 .popover-tabs-item {
