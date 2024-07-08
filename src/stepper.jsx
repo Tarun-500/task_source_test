@@ -4,12 +4,13 @@ import { GiDiamondRing, GiDoorRingHandle } from "react-icons/gi";
 import { IoDiamond } from "react-icons/io5";
 import SettingTab from "./SettingTab";
 import DiamondTab from "./diamondTab";
+import RingTab from "./RingTab";
 
 const Stepper = () => {
   const [tabs, setTabs] = useState([
     { id: 1, subHead: "Choose a", head: "Setting", content: <SettingTab />, icon: <GiDiamondRing /> },
     { id: 2, subHead: "Choose a", head: "Diamond", content: <DiamondTab />, icon: <IoDiamond /> },
-    { id: 3, subHead: "Complete", head: "Ring", content: <SettingTab />, icon: <GiDoorRingHandle /> },
+    { id: 3, subHead: "Complete", head: "Ring", content: <RingTab />, icon: <GiDoorRingHandle /> },
   ]);
 
   const handleTabClick = (index) => {
