@@ -1,6 +1,6 @@
 {
-  "name": "tarun-task-source-test",
-  "homepage": "https://tarun-500.github.io/task_source_test",
+  "name": "tarun-task-source-test", 
+  "homepage": "https://tarun-500.github.io/task_source_test/", 
   "private": true,
   "version": "0.0.0",
   "type": "module",
